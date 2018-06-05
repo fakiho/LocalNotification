@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A807F80020C6A20A008A9297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807F7FF20C6A20A008A9297 /* AppDelegate.swift */; };
-		A807F80220C6A20A008A9297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807F80120C6A20A008A9297 /* ViewController.swift */; };
 		A807F80520C6A20A008A9297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A807F80320C6A20A008A9297 /* Main.storyboard */; };
 		A807F80720C6A217008A9297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A807F80620C6A217008A9297 /* Assets.xcassets */; };
 		A807F80A20C6A217008A9297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A807F80820C6A217008A9297 /* LaunchScreen.storyboard */; };
+		A807F81220C6A36A008A9297 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807F81120C6A36A008A9297 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A807F7FC20C6A20A008A9297 /* LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A807F7FF20C6A20A008A9297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A807F80120C6A20A008A9297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A807F80420C6A20A008A9297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A807F80620C6A217008A9297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A807F80920C6A217008A9297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A807F80B20C6A217008A9297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A807F81120C6A36A008A9297 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A807F7FF20C6A20A008A9297 /* AppDelegate.swift */,
-				A807F80120C6A20A008A9297 /* ViewController.swift */,
+				A807F81120C6A36A008A9297 /* TableViewController.swift */,
 				A807F80320C6A20A008A9297 /* Main.storyboard */,
 				A807F80620C6A217008A9297 /* Assets.xcassets */,
 				A807F80820C6A217008A9297 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A807F80220C6A20A008A9297 /* ViewController.swift in Sources */,
+				A807F81220C6A36A008A9297 /* TableViewController.swift in Sources */,
 				A807F80020C6A20A008A9297 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBTTU32HS2;
 				INFOPLIST_FILE = LocalNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBTTU32HS2;
 				INFOPLIST_FILE = LocalNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
