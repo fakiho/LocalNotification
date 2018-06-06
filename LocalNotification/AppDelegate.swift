@@ -30,12 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func scheduleNotification() {
+    func scheduleNotification(notificationType: String) {
         
         let content = UNMutableNotificationContent() // Содержимое уведомления
         
-        content.title = "Local Notification"
-        content.body = "This is example how to create Local Notifications"
+        content.title = notificationType
+        content.body = "This is example how to create " + notificationType
         content.sound = UNNotificationSound.default
         content.badge = 1
         
